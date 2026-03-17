@@ -1,0 +1,30 @@
+{
+  "name": "ghost-scan",
+  "version": "1.0.0",
+  "description": "Detect invisible Unicode payloads hiding in JS/TS projects",
+  "main": "index.js",
+  "bin": {
+    "ghost-scan": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js ."
+  },
+  "keywords": [
+    "security",
+    "unicode",
+    "malware",
+    "npm",
+    "supply-chain",
+    "scanner"
+  ],
+  "author": "Juan🦙 <juan@getthellama.com> (https://x.com/JuanAtLarge)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuanAtLarge/ghost-scan.git"
+  },
+  "homepage": "https://github.com/JuanAtLarge/ghost-scan#readme",
+  "engines": {
+    "node": ">=14"
+  }
+}
